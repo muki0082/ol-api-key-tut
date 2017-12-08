@@ -73,7 +73,7 @@ export class AppComponent implements OnInit {
           
           /* Set a header with API key value */
           beforeSend: function(xhr) {
-            xhr.setRequestHeader("X-Mashape-Key", "AjbdoHzJ7FmshhgiV7sRb7ZjsXpEp1KbAzYjsnXbefsc5ngHAh");
+            xhr.setRequestHeader("X-Mashape-Key", "YOUR-API-KEY");
           }
         });
 
